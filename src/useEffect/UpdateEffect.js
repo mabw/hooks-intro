@@ -7,7 +7,6 @@ const UpdateEffect = () => {
     document.title = `You clicked ${count} times`;
   });
 
-
   return (
     <div>
       <h1>Basic effect example</h1>

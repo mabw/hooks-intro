@@ -7,7 +7,6 @@ const DidEffect = () => {
     alert(`page loaded`);
   }, []);
 
-
   return (
     <div>
       <h1>Did effect example</h1>

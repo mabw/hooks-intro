@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
-const EffectItem = ({ fruit }) => {
+const EffectItem = ({ fruit, vegetable }) => {
   useEffect(() => {
     alert(`you clicked ${fruit} times`);
   }, [fruit]);
 
-  return <p>You clicked fruit {fruit} times</p>;
+  return <p>You clicked fruit {fruit} times and {vegetable} times</p>;
 }
 
 const ConditionEffectFromProps = () => {
@@ -15,7 +15,7 @@ const ConditionEffectFromProps = () => {
   return (
     <div>
       <h1>Condition Effect From Props example</h1>
-      <EffectItem fruit={fruit} />
+      <EffectItem fruit={fruit} vegetable={vegetable} />
       <button onClick={() => setFruit(fruit + 1)}>
         Click fruit
       </button>

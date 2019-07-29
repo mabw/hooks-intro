@@ -38,7 +38,6 @@ import HooksStepOne from './customHooks/hooks/StepOne';
 import HooksStepTwo from './customHooks/hooks/StepTwo';
 
 import AwesomeHooks from './customHooks/awesomeHooks';
-import WithRedux from './customHooks/withLibraries/WithRedux';
 
 function App() {
   return (
@@ -208,7 +207,6 @@ function App() {
           <Route path="/custom-hooks/hooks/step-one" component={HooksStepOne} />
           <Route path="/custom-hooks/hooks/step-two" component={HooksStepTwo} />
           <Route path="/custom-hooks/awesome-hooks" component={AwesomeHooks} />
-          <Route path="/custom-hooks/with-redux" component={WithRedux} />
         </Switch>
       </div>
     </Router>

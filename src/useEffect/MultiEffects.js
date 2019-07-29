@@ -5,10 +5,11 @@ const MultiEffects = () => {
 
   useEffect(() => {
     alert(`page loaded 1`);
-  });
+  }, []);
   useEffect(() => {
     alert(`page loaded 2`);
-  });
+    setCount(count + 1);
+  }, [count]);
   useEffect(() => {
     alert(`page loaded 3`);
   });

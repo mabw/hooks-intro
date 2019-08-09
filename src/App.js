@@ -163,9 +163,6 @@ function App() {
               <li>
                 <Link to="/custom-hooks/awesome-hooks">AwesomeHooks demo</Link>
               </li>
-              <li>
-                <Link to="/custom-hooks/with-redux">with redux demo</Link>
-              </li>
             </ul>
           </li>
         </ul>

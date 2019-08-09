@@ -12,7 +12,7 @@ class StepOne extends React.Component {
   render() {
     return (
       <FormWrapper title='step one' >
-        {onSubmit => (
+        {(onSubmit) => (
           <form onSubmit={() => this.handleOnSubmit(onSubmit)}>
             <h4>Step one</h4>
             <input onChange={(e) => this.handleOnChange(e)} value={this.state.input} />
